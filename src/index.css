@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: conic-gradient(#0000 10%,#474bff);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: spinner-zp9dbg 1s infinite linear;
+}
+
+@keyframes spinner-zp9dbg {
+   to {
+      transform: rotate(1turn);
+   }
+}
+
+.product{
+   box-shadow: 0px 0px 10px 2px rgb(224, 221, 221);
+   transition: all 0.2s linear;
+}
+.product:hover{
+   transform: scale(1.1);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 20px 60px;
+   
+}
+
+.animate-bounce {
+    animation: 1s ease 0s infinite normal none running bounce;
+}
+
+@keyframes bounce {
+
+   0%, 100% {
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    transform: translateY(-25%);
+}
+   50% {
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transform: none;
+}
+}

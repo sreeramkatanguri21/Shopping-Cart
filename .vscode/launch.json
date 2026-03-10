@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/SREERAM/AppData/Local/Temp/5b11f6fc-3f1f-4e95-a3dc-601d0528f6a7_23CSB0B26_OS_LAB-20251030T074437Z-1-001.zip.6a7/23CSB0B26_OS_LAB",
+      "program": "c:/Users/SREERAM/AppData/Local/Temp/5b11f6fc-3f1f-4e95-a3dc-601d0528f6a7_23CSB0B26_OS_LAB-20251030T074437Z-1-001.zip.6a7/23CSB0B26_OS_LAB/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
